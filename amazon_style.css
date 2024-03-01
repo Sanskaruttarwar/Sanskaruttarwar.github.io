@@ -1,0 +1,425 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+    
+}
+
+body{    
+    background-color: #CCCCCC;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-log{
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+
+.logo{
+    background-image: url("amazon_logo.png");
+    width: 100%;
+    background-size: cover;
+    height: 57px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-address{
+    width: 88px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0px 9px 10px;
+}
+
+.add-first{
+    color: #CCCCCC;
+    margin-left: 15px;
+    font-size: 0.8rem;
+}
+
+.add-sec{
+    margin-left: 3px;
+    font-size: 1rem;
+}
+
+.nav-search{
+    height: 40px;
+    width: 920px;
+    justify-content: space-evenly;
+    background-color: black;
+    display: flex;
+    border-radius: 4px;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    width: 51px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #e6e6e6;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #febd68;
+    font-size: 1.3rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+}
+
+.nav-loc{
+    display: flex;
+    align-items: center;
+    width: 73px;
+    height: 40px;
+    padding-top: 8px;
+    margin-left: 2vw;
+}
+
+.flag{
+    background-image: url("flag1.png");
+    width: 21px;
+    height: 16px;
+}
+
+.loc-text{
+    font-size: 0.8rem;
+    margin-left: 2px;
+    border: none;
+    background-color: #0F1111;
+    color: white;
+}
+
+.nav-sign-in{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 2px;
+    padding:0px 9px 10px;
+}
+
+.sign-hello{
+    font-size: 0.8rem;
+}
+
+.sign-acc{
+    font-size: 1rem;
+}
+
+.nav-return{
+    width: 71px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0px 9px 10px;
+}
+
+.return{
+    font-size: 0.8rem;
+    color: #CCCCCC;
+}
+
+.return-order{
+    font-size: 1rem;
+}
+
+.nav-cart{
+    display: flex;
+    width: 84px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-logo{
+    display: flex;
+    align-items: end;
+}
+
+.cart-logo i{
+    font-size: 35px;
+}
+
+
+.nav-sec{
+    height: 40px;
+    width: 100%;
+    background-color: #232f3e;
+    padding: 0px 0px 0px 11px;
+    display: flex;
+}
+
+.ham{
+    color: white;
+    display: flex;
+    width: 58px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ham-logo{
+    font-size: 1.2rem;
+}
+
+.ham-text{
+    font-size: 1rem;
+    padding-left: 5px;
+}
+
+.text1{
+    display: flex;
+    align-items: center;
+}
+
+.sec-text{
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 500;
+}
+
+.back{
+    height: 15px;
+    margin: 5px 0px 6px;
+    padding: 8px 9px;
+}
+
+
+
+
+/* page body */
+
+.hero{
+    background-image: url("71NqG9bBp7L._SX3000_.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    flex-wrap: wrap;   
+}
+
+.hero-box{
+    width: 350px;
+    height: 420px;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+
+.box-text{
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 5px 20px;
+    margin: 0px 0px 10px;
+}
+
+.photo1{
+    background-image: url(headsets.jpg);
+    width: 170px;
+    height: 115px;
+    background-size: cover;
+}
+
+.photo2{
+    background-image: url(keybord.jpg);
+    width: 170px;
+    height: 115px;
+    background-size: cover;    
+}
+
+.photo3{    
+    background-image: url(mouxe.jpg);
+    width: 170px;
+    height: 115px;
+    background-size: cover;
+}
+
+.photo4{
+    background-image: url(chair.jpg);
+    width: 170px;
+    height: 115px;
+    background-size: cover;
+}
+
+.boxphoto{
+    display: flex;
+}
+
+.more a{
+    color: #007185;
+    text-decoration: none;
+}
+
+.more{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.boxphoto p{
+    margin-left: 10px;
+    font-size: 0.8rem;
+}
+
+.continer{
+    margin-top: 255px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.photo_2{
+    width: 340px;
+    height: 284px;
+    background-image: url(pc.jpg);
+    background-size: cover;
+    margin-left: 5px;
+}
+
+.photo_3{
+    width: 340px;
+    height: 284px;
+    background-image: url(tedi.jpg);
+    background-size: cover;
+    margin-left: 5px;
+}
+
+.photo_4{
+    height: 177px;
+    height: 284px;
+    padding: 0px 20px;
+    margin-left: 65px;
+}
+
+.dress1{
+    background-image: url(dress1.jpg);
+    width: 165px;
+    height: 115px;
+    background-size: cover; 
+}
+
+.dress2{
+    background-image: url(dress2.jpg);
+    width: 165px;
+    height: 115px;
+    background-size: cover; 
+    margin-left: 5px;
+}
+
+.dress3{
+    background-image: url(dress3.jpg);
+    width: 165px;
+    height: 115px;
+    background-size: cover; 
+}
+
+.dress4{
+    background-image: url(dress4.jpg);
+    width: 165px;
+    margin-left: 5px;
+    height: 115px;
+    background-size: cover; 
+}
+
+.photo_5{
+    width: 340px;
+    height: 284px;
+    background-image: url(pink.jpg);
+    background-size: cover;
+    margin-left: 5px;
+}
+
+.photo_6{
+    width: 340px;
+    height: 284px;
+    background-image: url(press.jpg);
+    background-size: cover;
+    margin-left: 5px;
+}
+
+.photo_7{
+    width: 340px;
+    height: 284px;
+    background-image: url(metal.jpg);
+    background-size: cover;
+    margin-left: 5px;
+}
+
+.seprator{
+    margin-top: 30px;
+}
+
+
+/* footer */
+
+.footerdiv{
+    margin-top: 600px;
+}
+
+.footerhead{
+    height: 50px;
+    background-color:#37475a ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 13px;
+}
+.footerbody{
+    height: 350px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.bodybox1{
+    margin-top: 30px;
+    font-size: 14px;   
+    text-decoration: none;
+}
+.bodybox1 ul li{
+    margin-top: 13px;
+}
+.bodybox1 ul{
+    list-style-type: none;
+}
